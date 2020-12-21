@@ -329,7 +329,7 @@ header{
     display: block;
     float: left;
     width: 25%;
-    }
+}
 .meals-photo{
     width:100%;
     margin:0;
@@ -364,7 +364,7 @@ header{
 }
  
 .steps-box{
-    margin-top:  30px;
+    margin-top:  50px;
 
 }
 .steps-box:first-child{
@@ -378,19 +378,20 @@ header{
     margin-top: 70px;
 }
 .app-screen{
-    width:40%;
-
-}
+    width:60%;
+    margin-top: -27px;
+    margin-left: 30%;
+     }
 .works-steps{
     margin-bottom: 50px;
-}
+     }
 .works-steps:last-of-type{
     margin-bottom: 80px;
 }
 .works-steps div{
     color:#e67e22;
     border:2px solid #e67e22;
-    display: inline-block;
+    display: block;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -399,6 +400,7 @@ header{
     float: left;
     font-size: 150%;
     margin-right: 25px;
+    align-items: center;
 
 }
 .btn-app:link,
@@ -557,7 +559,10 @@ footer{
 }
 .footer-nav {
     list-style:none;
-    float:right;
+    margin-float:right;
+    
+     
+    
 
 }
 .social-links {
