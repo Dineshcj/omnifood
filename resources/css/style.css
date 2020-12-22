@@ -362,6 +362,10 @@ header{
     background-color: #f4f4f4;
     margin-top:699px;
 }
+.section-steps steps-box{
+    display: flex;
+    align-items: center;
+}
  
 .steps-box{
     margin-top:  50px;
@@ -498,7 +502,7 @@ cite img{
 }
 .plan-price{
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 10px;
     color:#e67e22;
 }
@@ -555,14 +559,13 @@ footer{
     background-color: #333;
     padding:40px;
     font-size: 80%;
+    text-align: start;
+    white-space: nowrap;
 
 }
 .footer-nav {
     list-style:none;
     margin-float:right;
-    
-     
-    
 
 }
 .social-links {
@@ -618,6 +621,7 @@ footer{
 .ion-social-googleplus,
 .ion-social-instagram{
     transition: 0.2s;
+    margin-left: 20%;
 }
 
 footer p{
